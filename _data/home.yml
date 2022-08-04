@@ -9,10 +9,10 @@ navbar_entries:
     url: https://PeterParkerC.github.io
 
 project_entries:
-[  - title: Overview
-[    url: GENGA-overview
-[    desc: Overview
-[    highlight: WIP
+  - title: Overview
+    url: GENGA-overview
+    desc: Overview
+    highlight: WIP
 
   - title: Running GENGA with test code
     url: Running-GENGA-with-test-code
