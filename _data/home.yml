@@ -9,71 +9,46 @@ navbar_entries:
     url: https://PeterParkerC.github.io
 
 project_entries:
+[  - title: Overview
+[    url: GENGA-overview
+[    desc: Overview
+[    highlight: WIP
+
   - title: Running GENGA with test code
     url: Running-GENGA-with-test-code
     desc: First time running GENGA with some tips provided
 
-  - title: Simple long runs
-    url: overview-post
-    desc: Several test runs for benchmarking the results
+  - title: Simple planet formation run
+    url: construction
+    desc: A 100Myr run with 3,000 objects in 0.5 to 2 AU with total 3 Earth Masses
 
   - title: Benchmarking results with Nvidia A100-40gb
-    url: overview-post
-    desc: You can control visibility from _config.yml file
+    url: construction
+    desc: Several test runs for benchmarking the results
 
-  - title: Project 4
-    url: overview-post
-    desc: This project uses highlight markup, configured in _data/home.yml
-    highlight: WIP
-
-  - title: Project 5
-    url: overview-post
-    desc: Moonwalk also has horizontal list (used in header and footer)
-    highlight: WIP
-
-  - title: Project 6
-    url: overview-post
-    desc: It also has a scalable vertical list (in case you need it)
+  - title: An annulus of 16k objects in distant orbit
+    url: construction
+    desc: A 10 Myr run with 16k objects in 40 to 42 AU with total 1 Earth Mass
+    hightlight: WIP 
 
 old_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
-
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Overview
+    url: construction
+    desc: 
 
 older_project_entries:
-  - title: Soopr
-    url: https://www.soopr.co
-    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-    highlight: NEW
+  - title: Research Note
+    url: https://ui.adsabs.harvard.edu/link_gateway/2021RNAAS...5..282C/doi:10.3847/2515-5172/ac4159
+    desc: Trained and test a double layer random forest with new label to classify the ZTF Catalog of Periodic Variable Stars
+    highlight: Publication
 
-  - title: Cookie
-    url: https://github.com/abhinavs/cookie
-    desc: An open source landing website with supporting pages and integrated blog
-
-  - title: Moonwalk
-    url: https://github.com/abhinavs/moonwalk
-    desc: A fast and minimalist Jekyll blog theme with clean dark mode
-
-  - title: Humangous
-    url: https://www.humangous.co
-    desc: The better people know you, the better they collaborate
+  - title: Classification Result
+    url: https://doi.org/10.5281/zenodo.5764899
+    desc: Online Data (link to Zenodo)
 
 footer_entries:
   - title: Peter's homepage
-    url: https://www.PeterParkerC.github.io
+    url: https://PeterParkerC.github.io
 
   - title: twitter
     url: https://twitter.com/PeterParkerC
